@@ -1,0 +1,40 @@
+body {
+	margin: 10px;
+	font-family: arial, sans-serif;
+	color: #595959;
+	font-size: 15px;
+	
+	.container {
+		max-width: 1000px;
+		margin: 0 auto;
+		
+		.tabs {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			border-bottom: 1px solid #aaa;
+			padding-bottom: 10px;
+			margin-bottom: 20px;
+			
+			.tabContainer {
+				display: inline-block;
+				
+				.tab, .tab:visited {					
+					border: 1px solid #aaa;
+					padding: 10px 20px;
+					color: #000;
+					text-decoration: none;
+					margin-right: 6px;
+					border-top-left-radius: 6px;
+					border-top-right-radius: 6px;
+					
+					&.selected {
+						background-color: orange;
+						border-color: orange;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

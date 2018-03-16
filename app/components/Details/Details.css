@@ -1,0 +1,20 @@
+.detailsComp {
+	display: inline-block;
+	width: 49%;
+	margin-left: 20px;
+	vertical-align: top;
+	
+	.details {
+		padding: 20px;
+		border-radius: 10px;
+		background-color: #eee;
+		
+		h2 {
+			margin-top: 0;
+		}
+		.detailsLabel {
+			font-weight: bold;
+			margin-right: 6px;
+		}
+	}
+}

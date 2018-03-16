@@ -1,0 +1,34 @@
+.gridComp {
+	clear: both;
+	display: inline-block;
+	width: 49%;
+	
+	.grid {
+		width: 100%;
+		border-collapse: collapse;
+
+		.gridHead {
+			font-weight: normal;
+			border-bottom: 1px solid #808080;
+			padding: 5px;
+			text-align: left;
+		}
+		.gridCell {
+			padding: 5px;
+			
+			.link, .link:visited {
+				text-decoration: none;
+				color: #f60;
+				
+				&:hover {
+					color: orange;
+				}
+			}
+		}
+		tr:last-child {
+			.gridCell {
+				border-bottom: 0;
+			}
+		}
+	}
+}
